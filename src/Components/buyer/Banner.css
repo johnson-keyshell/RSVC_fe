@@ -1,0 +1,144 @@
+.banner{
+    position: relative;
+  display: flex;
+  align-items: center;
+}
+.banner img{
+    width: 1378px;
+height: 647px;
+flex-shrink: 0;
+border-radius: 30px;
+}
+.shadow-box {
+    position: absolute;
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Center both horizontally and vertically */
+    width: 932px;
+    height: 259px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: rgba(0, 0, 0, 0.50);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .shadow-box h1 {
+    color: #FFF;
+    text-align: center;
+    text-shadow: 0px 2px 14px rgba(0, 0, 0, 0.53);
+    font-family: Inter;
+    font-size: 47px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+.shadow-box{
+    width: 932px;
+height: 259px;
+flex-shrink: 0;
+border-radius: 50px;
+background: rgba(0, 0, 0, 0.50);
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+}
+.shadow-box h1{
+    color: #FFF;
+text-align: center;
+text-shadow: 0px 2px 14px rgba(0, 0, 0, 0.53);
+font-family: Inter;
+font-size: 47px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.searchBox{
+    width: 538px;
+height: 53px;
+flex-shrink: 0;
+border-radius: 26px;
+background: #FFF;
+box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.searchBox input{
+    width: 479px;
+height: 45px;
+flex-shrink: 0;
+border: none;
+outline: none;
+border-radius: 26px;
+background: #EDEDED;
+top: 4px;
+left: -14px;
+position: relative;
+}
+
+.search-icon{
+    float: right;
+    top: -27px;
+    left: -15px;
+    position: relative;
+}
+.orange-circle{
+    top: 3px;
+    left: -7px;
+    position: relative;
+}
+
+.location-marker{
+    left: 10px;
+    position: relative;
+    top: 3px;
+    z-index: 999;
+}
+
+/* input[type="text"] ,
+input[type="password"]{
+    text-indent: 30px; 
+  } */
+
+.accordion-title{
+  color: red;
+}
+
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+    .shadow-box {
+      width: 90%; 
+      max-width: none; 
+    }
+    .searchBox {
+        width: 100%;
+        max-width: none;
+      }
+    
+      .searchBox input {
+        width: 82%;
+        max-width: none;
+        text-indent: 10px;
+      }
+    
+      .search-icon {
+        float: right;
+        top: -27px;
+        left: -14px;
+        position: relative;
+      }
+    
+      .orange-circle {
+        top: 6px;
+        left: -6px;
+        position: relative;
+        float: right;
+        
+      }
+      .banner img{
+        width: 100%;
+      }
+  }

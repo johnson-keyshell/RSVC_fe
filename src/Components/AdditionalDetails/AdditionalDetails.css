@@ -1,0 +1,66 @@
+.heading-for-all-additional {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #4C4C4C;
+    margin-bottom: 5px;
+  }
+  .additional-head {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0em;
+    color: #4C4C4C;
+    font-family: Inter;
+    font-weight: 500;
+    margin-bottom: 10px;
+
+}
+.des-add-text {
+    border-radius: 20px;
+    background: #EDEDED;
+    max-width: 66%;
+
+}
+
+.add-btn-addtnl {
+    width: 105px;
+    height: 29px;
+    align-content: center;
+    border-radius: 14px;
+    background: #F8665D;
+    text-transform: capitalize;
+    color: rgb(255, 255, 255);
+    border: none;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-top: 10px;
+}
+.addtl-box{
+    width:1056px;
+    min-width:fit-content;
+    height:fit-content;
+    border-radius:20px;
+    background-color:white;
+    padding: 10px; 
+}
+.addtl-wrapper{
+    margin-top: 20px;
+    width: 100%;
+    min-width: fit-content;
+    height: fit-content;
+    border-radius: 20px;
+    background-color: white;
+}
+@media (max-width: 768px) {
+    .addtl-wrapper  {
+      width: 100%; 
+    }
+  }

@@ -1,0 +1,34 @@
+.main {
+    width: "100%";
+    height: fit-content;
+}
+
+.main-wrapper {
+    width: "100%";
+    height: fit-content;
+
+}
+
+.hover-wrapper {
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 20px;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: max-content;
+    font-family: Inter;
+    font-size: 14px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+    padding: 5%;
+    color: white;
+}
+.hover-typo{
+    font-family: Inter;
+    font-size: 14px;
+}
+.circle-text-inside-hover{
+    font-family: Inter;
+    font-size: 14px;
+    color: white;
+}

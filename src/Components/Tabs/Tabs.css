@@ -1,0 +1,47 @@
+.tab-buttons{
+    display: flex;
+    justify-content: flex-start;
+}
+.tab-buttons button{
+    border: none;
+    background: transparent;
+    color: #4C4C4C;
+font-family: Inter;
+font-size: 12px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+height: 27px;
+padding: 10px;
+top: 12px;
+position: relative;
+align-items: center;
+/* fill: #FFF;
+filter: drop-shadow(0px -1px 4px rgba(0, 0, 0, 0.25)); */
+}
+.tab-buttons button.active {
+    background-color: #fff;
+    fill: #FFF;
+filter: drop-shadow(0px -1px 4px rgba(0, 0, 0, 0.25));
+top: 12px;
+position: relative;
+  }
+
+.documents-list li{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+flex-shrink: 0;
+border-radius: 10px;
+width: 100%;
+color: #4C4C4C;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.documents-list li:hover{
+    background-color: #FAFAFA;
+}

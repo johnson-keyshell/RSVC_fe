@@ -1,0 +1,86 @@
+.head {
+    color: #4C4C4C;
+}
+.wrapper {
+    padding: 20px;
+    background-color: white;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: row;
+    overflow: 'hidden'
+}
+
+.btn-container {
+    padding-bottom: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.btn-acceptTerms,
+.btn-reject,
+.btn-acceptTerms:hover,
+.btn-reject:hover {
+    width: 108px;
+    height: 35px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+}
+
+.btn-acceptTerms {
+    width: 108px;
+    height: 35px;
+    background: #20CD50;
+    color: white;
+    border: none;
+}
+
+.btn-reject {
+    width: 108px;
+    height: 35px;
+    background: #FF2E00;
+    color: white;
+}
+
+.btn-acceptTerms:hover {
+    width: 108px;
+    height: 35px;
+    background: white;
+    color: #20CD50;
+    border-color: #20CD50;
+    border: 1px solid #4C4C4C;
+}
+
+.btn-reject:hover {
+    width: 108px;
+    height: 35px;
+    background: white;
+    color: #FF2E00;
+    border-color: #FF2E00;
+    border: 1px solid #4C4C4C;
+}
+
+.btn-cancel {
+    width: 108px;
+    height: 35px;
+    background-color: white;
+    border: 2px solid #4C4C4C;
+    color: #4C4C4C;
+    
+}
+
+.btn-cancel:hover {
+    width: 108px;
+    height: 35px;
+    background-color:white;
+    border: 2px solid #4C4C4C;
+    color: #4C4C4C;
+}
+
+.subtitle {
+    color: black;
+    
+}
+.subcontent{
+    color: black;
+}

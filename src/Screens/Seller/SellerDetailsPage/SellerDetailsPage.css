@@ -1,0 +1,119 @@
+.details-page {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.editBtn {
+    width: 130%;
+    height: 35px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #F8665D;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    /* font-weight: 600; */
+    line-height: normal;
+    float: right;
+    /* margin-bottom: 20px; */
+    /* left: -100px; */
+    /* left: -10px; */
+    /* position: relative; */
+}
+
+.lightbox-full {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.descriptionBox {
+    padding: 20px;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    /* height: 249px; */
+    /* height: auto; */
+    flex-shrink: 1;
+    border-radius: 20px;
+    background: #FFF;
+    left: -10px;
+    position: relative;
+}
+
+.descriptionBox h2 {
+    color: #4C4C4C;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.item {
+    margin-left: 6px;
+    margin-top: 28px;
+}
+
+.item h4 {
+    color: #4C4C4C;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 10px;
+    margin-top: 2px;
+}
+
+.amenity-type-content,.amenity-type-content-se,.buyerDetailsGoogleMapLink  {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #4C4C4C;
+
+}
+.buyerDetailsGoogleMapLink{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.hidden {
+    height: 50px;
+    width: 100%;
+
+    visibility: hidden;
+}
+
+.row-amenity {
+    padding-top: 3%;
+}
+
+.amenity-type {
+    font-family: Inter;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #8B8B8B;
+    margin-bottom: 0%;
+}
+.amenity-type-content{
+   margin-left: 5%;
+
+}
+.warning-message{
+    font-size: 15px;
+    color: #d62424;
+}
+img.amenitie-image{
+    height: 25px;
+    width:24px ;
+}

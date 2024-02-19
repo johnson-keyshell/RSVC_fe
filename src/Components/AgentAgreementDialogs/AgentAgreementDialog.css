@@ -1,0 +1,89 @@
+.Ahead {
+    color: #4C4C4C;
+}
+
+.Awrapper {
+    padding: 20px;
+    background-color: white;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: row;
+    overflow: 'hidden'
+}
+
+.Abtn-container {
+    padding-bottom: 20px;
+    padding-left: 20px;
+    margin-top: 20px;
+    margin-right: 20%;
+}
+
+.Abtn-accept,
+.Abtn-reject,
+.Abtn-accept:hover,
+.Abtn-reject:hover {
+    min-width: 108px !important;
+    width: fit-content !important;
+    height: 35px !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    border-radius: 20px !important;
+}
+
+.Abtn-accept {
+    color: #FFFFFF !important;
+    border-radius: 20px !important;
+    background: #54C7E9 !important;
+    border: 1px solid #4C4C4C !important;
+}
+
+.Abtn-reject {
+    border-radius: 20px !important;
+    border: 1px solid #000 !important;
+    color: white!important;
+    background-color: #F8665D !important;
+}
+
+.Abtn-accept:hover {
+    background: #23a6ce !important;
+    color: #ffff;
+    border-radius: 20px !important;
+    border: 1px solid #4C4C4C !important;
+    gap: 10px;
+}
+
+.Abtn-reject:hover {
+    background: #FFFFFF !important;
+    border-radius: 20px !important;
+    color: white !important;
+    border: 1px solid #000 !important;
+    background-color: #ff261b !important;
+}
+
+.Abtn-cancel {
+    min-width: 108px !important;
+    width: fit-content !important;
+    height: 35px;
+    background-color: white;
+    border: 2px solid #4C4C4C;
+    color: #4C4C4C;
+
+}
+
+.Abtn-cancel:hover {
+    min-width: 108px !important;
+    width: fit-content !important;
+    height: 35px;
+    background-color: white;
+    border: 2px solid #4C4C4C;
+    color: #4C4C4C;
+}
+
+.Asubtitle {
+    color: black;
+
+}
+
+.Asubcontent {
+    color: black;
+}

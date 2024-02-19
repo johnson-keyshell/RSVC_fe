@@ -1,0 +1,96 @@
+.Bhead {
+    color: #4C4C4C;
+}
+
+.Bwrapper {
+    padding: 20px;
+    background-color: white;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: row;
+    overflow: 'hidden'
+}
+
+.Bbtn-container {
+    padding-bottom: 20px;
+    padding-left: 20px;
+    margin-top: 20px;
+
+}
+
+.ABtn-accept,
+.Bbtn-reject,
+.Bbtn-accept:hover,
+.Bbtn-reject:hover {
+    width: 108px;
+    height: 35px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+}
+
+.Bbtn-accept {
+    width: 200px;
+    height: 35px;
+    background: #5DCD19 !important;
+    border-radius: 20px !important;
+    color: white !important;
+}
+
+.Bbtn-reject {
+    width: 108px;
+    height: 35px;
+    background: #FF2E00 !important;
+    border-radius: 20px !important;
+     color: #FFFFFF !important;
+}
+
+.Bbtn-accept:hover {
+    width: 200px;
+    height: 35px;
+    background: #5DCD19 !important;
+    color: #ffff;
+    border: 1px solid #4C4C4C;
+}
+
+.Bbtn-reject:hover {
+    width: 108px;
+    height: 35px;
+    background: #FF2E00 !important;
+    color: #FFFFFF !important;
+    border-color: #0e0d0d;
+    border: 1px solid #4C4C4C;
+    display: inline-flex;
+    height: 35px;
+    padding: 6px 27px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+}
+
+.Bbtn-cancel {
+    width: 108px;
+    height: 35px;
+    background-color: white;
+    border: 2px solid #4C4C4C;
+    color: #4C4C4C;
+
+}
+
+.Bbtn-cancel:hover {
+    width: 108px;
+    height: 35px;
+    background-color: white;
+    border: 1px solid #4C4C4C;
+    color: #4C4C4C;
+}
+
+.Bsubtitle {
+    color: black;
+
+}
+
+.Bsubcontent {
+    color: black;
+}

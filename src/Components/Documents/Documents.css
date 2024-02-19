@@ -1,0 +1,163 @@
+.container-fluid-buyer-document {
+    width: 100%;
+    min-height: 80vh;
+    height: fit-content;
+    background-color: white;
+    border-radius: 20px;
+    padding: 1%;
+    margin-top: 20px;
+}
+
+.buyer-document-screen {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+.contact-list-buyer-document {
+    width: 30%;
+    min-height: 69vh;
+    height: fit-content;
+    flex-shrink: 1;
+    border-radius: 20px 0px 0px 20px;
+    background: #FFF;
+}
+
+@media (max-width: 825px) {
+    .contact-list-buyer-document {
+        width: 98%;
+        margin-left: 2%;
+        border-radius: 20px;
+        border-right: none;
+    }
+}
+
+.contact-list-buyer-document ul li {
+    display: flex;
+    justify-content: space-between;
+    /* height: 87px; */
+    flex-shrink: 0;
+    background: #FAFAFA;
+    align-items: center;
+    width: 100%;
+    border-radius: 10px;
+    /* left: -26px; */
+    position: relative;
+    margin-left: 0%;
+}
+
+.message-screen-buyer-document {
+    width: 70%;
+    min-height: 480px;
+    height: fit-content;
+    flex-shrink: 0;
+    border-radius: 0px 20px 20px 0px;
+    background: #FFF;
+    padding: 2%;
+}
+
+.upld-btn-doc {
+    width: 90px;
+    min-width: fit-content;
+    min-height: 29px;
+    height: fit-content;
+    align-content: center;
+    border-radius: 14px;
+    background: #9747FF;
+    text-transform: capitalize;
+    color: rgb(255, 255, 255);
+    border: none;
+    margin: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+    border-radius: 14px;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 15px;
+    letter-spacing: 0em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.main-doc-name,
+.main-person-name,
+.main-reason-doc,
+.doc-head,
+.sail-status-title,
+.main-reason-pop {
+    font-family: Inter;
+    letter-spacing: 0em;
+    text-align: left;
+    max-width: 100%;
+}
+.reject-reason-doc{
+    font-family: Inter;
+    letter-spacing: 0em;
+    text-align: left;
+    max-width: 80%;
+}
+
+.doc-head {
+    color: #4C4C4C;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.main-doc-name {
+    color: #4C4C4C;
+    font-size: 18px;
+    font-weight: 600;
+
+}
+
+.main-person-name ,.sail-status-title{
+
+    color: #4C4C4C;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+.sail-status-title{
+    margin-bottom: 0px;
+}
+
+.main-reason-doc,.reject-reason-doc {
+    color: #8B8B8B;
+    font-size: 16px;
+    font-weight: 200;
+    font-style: italic;
+    text-transform: capitalize;
+}
+
+.main-reason-pop {
+    color: #8B8B8B;
+    font-size: 16px;
+    font-weight: 200;
+    font-style: italic;
+}
+
+.ver-btns {
+    cursor: pointer;
+}
+
+.contr-pop-select {
+    font-family: Inter;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #4C4C4C;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 0 !important;
+}
+
+.contact-details-doc {
+    margin-left: 10px;
+    /* align-items: center; */
+    top: 20px;
+    position: relative;
+    width: 75%;
+}

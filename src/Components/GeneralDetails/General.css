@@ -1,0 +1,147 @@
+.formBox {
+    width: 1037px;
+    height: 647px;
+    height: 750px;
+    flex-shrink: 0;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.path-text p {
+    color: #4C4C4C;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+}
+.no-scroll {
+    overflow: hidden;
+    border: none;
+    width: 290px;
+    height: 129px;
+    border-radius: 20px;
+    background: #EDEDED;
+    outline: none;
+    
+}
+.no-scroll{
+    
+    padding-left: 20px;
+
+}
+.formBox p {
+    color: #4C4C4C;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.formBox span {
+    color: #F8665D;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.formBox input[type='text'] {
+    width: 290px;
+    height: 45px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #EDEDED;
+    border: none;
+    outline: none;
+}
+
+::placeholder {
+    color: #8B8B8B;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    left: 20px;
+}
+.margin-bottom {
+    position: absolute;
+    bottom: 1px;
+    float: right;
+    
+}
+.margin-bottom button {
+    width: 186px;
+    height: 45px;
+    flex-shrink: 0;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.outlined-textarea{
+    color: #4C4C4C;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+
+}
+.add-more-btn {
+    width: 75px;
+    height: 30px;
+    flex-shrink: 0;
+    border-radius: 14px;
+    background: #54C7E9;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border: none;
+  }
+
+.candelBtn {
+    border-radius: 20px;
+    border: 1px solid #4C4C4C;
+    width: 106px;
+    padding: 10px;
+    height: 45px;
+}
+
+.nextBtn {
+    border-radius: 20px;
+    background: #5DCD19;
+    color: #FFF;
+    border: none;
+    margin-left: 20px;
+    min-width: 106px;
+    width: fit-content;
+    padding: 10px;
+    height: 45px;
+}
+@media (max-width: 768px) {
+    .nextBtn{
+        height: 25px;
+        padding: 0%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .candelBtn {
+        height: 25px;
+        padding: 0%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+

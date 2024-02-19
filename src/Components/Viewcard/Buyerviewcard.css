@@ -1,0 +1,31 @@
+.icon-buyer-view-card { 
+    color: #F8665D
+   
+}
+
+.font-ui {
+    color: #4C4C4C;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+
+ 
+}
+
+.avtr {
+    display: flex;
+    align-items: center;
+    padding-block: 7px;
+    justify-content: space-between;
+}
+
+
+.left-align {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+  }
+  

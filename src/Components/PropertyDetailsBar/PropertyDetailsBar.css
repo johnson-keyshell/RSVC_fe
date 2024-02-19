@@ -1,0 +1,101 @@
+.mains {
+    width: 90%;
+    background-color: white;
+    border-radius: 30px;
+    height: auto;
+    margin-top: 10px;
+    align-self: center;
+    padding: 0%;
+    margin-left: 5%;
+    margin-right: 5%;
+
+    /* height: 67px; */
+}
+
+.form-control-containerss {
+
+    box-shadow: none !important;
+    padding: 0;
+    border: none;
+    width: fit-content;
+}
+
+
+.btn-txt-backtolisting {
+    color: #54C7E9;
+    background-color: white;
+}
+
+.btn-backtolisting:hover {
+    color: #54C7E9;
+    background-color: white;
+}
+
+.btn-backtolisting.focus,
+.btn-backtolisting:focus {
+    box-shadow: none;
+    background-color: white;
+}
+
+.icons {
+    color: #4C4C4C;
+}
+
+.dividers {
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 38px;
+    border: 2px;
+    align-items: center;
+
+}
+
+.txt-street {
+    color: #8B8B8B;
+    font-family: Inter;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.txt-agent,.txt-shortlist{
+    color:  #4C4C4C;
+    font-family: Inter;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.txt-buildname {
+    color:  #4C4C4C;
+}
+.buildText-container{
+    margin-left: 10px;
+}
+.agents{
+    align-items: center;
+    padding-top: 10px;
+}
+.avatarContainer{
+    position: relative;
+    display: flex;
+    padding-left: 25px;
+}
+.avatar{
+    position: relative;
+    z-index: 1;
+    margin-left: -25px;
+}
+.shortlist-container{
+padding-top: 10px;
+}
+.fav-icons-border{
+color:#4C4C4C;
+}
+.fav-icons-fill{
+    color: red;
+}

@@ -1,0 +1,31 @@
+.btn-no,.btn-yess{
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    width: 20%;
+}
+.btn-no{
+   background-color: #5DCD19;
+}
+
+.btn-yess{
+background-color: #F8665D;
+}
+.dialog-txt{
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 200;
+    padding: 10px;
+    color: #4C4C4C;
+}
+.dialog-txt-head{
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    padding: 10px;
+    color: #4C4C4C;
+
+}

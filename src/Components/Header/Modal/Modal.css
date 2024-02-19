@@ -1,0 +1,44 @@
+.menu-login-btn{
+
+
+}
+
+.menu-item-login-btn{
+    width: 100%;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.Text-log{
+    /* margin-right: 10px; */
+}
+
+.arrow-cont-buyer,.arrow-cont-agent,.arrow-cont-seller{
+    padding: 5px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+.arrow-cont-buyer{
+    background-color:#F8665D;
+
+}
+.arrow-cont-agent{
+    background-color:#F6D563   ;
+
+}
+.arrow-cont-seller{
+    background-color: #5DCD19;
+}
+.google-signinBtnIcon{
+box-shadow: none !important;
+border: 1px solid #EDEDED  !important;  
+border-radius: 20px !important;
+text-color:'#4C4C4C' !important;
+text-decoration-color: #F8665D;
+}
+.facebook-signinBtnIcon{
+    border-radius: 20px !important;
+}
+.text-email-box,.text-email-box:valid{
+    background-color:#EDEDED;
+    border-radius: 20px;
+}

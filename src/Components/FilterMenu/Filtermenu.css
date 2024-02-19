@@ -1,0 +1,82 @@
+.container-main {
+
+  /* remove padding for align it to top */
+  width: 90%;
+  height: auto;
+  border-radius: 30px;
+  align-items: center;
+  background: white;
+  padding: 10px;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  margin-left: 5%;
+  /* box-shadow: 0px 3px 14px 1px #0000001F; */
+
+}
+
+
+/* Style for the FormControl container */
+.form-control-container {
+
+  box-shadow: none !important;
+  padding: 0;
+  border: none;
+  width: fit-content;
+}
+
+
+/* Style for the InputLabel */
+.form-control-label {
+  font-size: 16px;
+  color: #4C4C4C;
+}
+
+.navIcon {
+  color: #4C4C4C;
+  padding: 10px;
+  padding-top: 5px;
+
+}
+
+.locBar {
+  margin-left: 5px;
+  border-radius: 23px;
+  background: #EDEDED;
+  width: 30%;
+}
+
+.divider {
+  padding-left: 5px;
+  padding-right: 5px;
+  height: 38px;
+  border: 2px;
+
+}
+
+.locFinder {
+  border: none;
+  display: none;
+  width: 1000px;
+}
+
+.form-control-label.Mui-focused {
+  color: #4C4C4C !important;
+}
+
+/* Specify the desired border color for the focused state */
+.form-control-container.Mui-focused {
+  border-bottom-color: #4C4C4C !important;
+}
+
+
+
+
+/* Style for the Select component */
+.select-component.Mui-focused {}
+
+
+/* Style for the Menu Items inside the Select */
+.select-menu-item {}
+
+/* Style for the selected value */
+.select-selected-value {}

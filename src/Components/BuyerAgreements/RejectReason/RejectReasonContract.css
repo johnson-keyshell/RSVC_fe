@@ -1,0 +1,51 @@
+.btn-container {
+    padding-bottom: 20px;
+    padding-right: 20px;
+    margin-top: 20px;
+}
+
+.btn-reject,
+.btn-reject:hover {
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+}
+
+.btn-reject
+ {
+    width: 108px;
+    height: 35px;
+    background: #FFFFFF !important;
+    border-radius: 20px !important;
+    color:#4C4C4C!important;
+   
+}
+
+.btn-reject:hover {
+    width: 108px;
+    height: 35px;
+    background:#FFFFFF !important;
+    color: #4C4C4C !important;
+    border-color: #0e0d0d;
+    border: 1px solid #4C4C4C;
+    display: inline-flex;
+    height: 35px;
+    padding: 6px 27px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+}
+
+.head-text {
+    border-radius: 20px;
+    background: #EDEDED;
+    max-width: 528px;
+}
+
+.content-text {
+    border-radius: 20px;
+    background: #EDEDED;
+    max-width: 528px;
+
+}

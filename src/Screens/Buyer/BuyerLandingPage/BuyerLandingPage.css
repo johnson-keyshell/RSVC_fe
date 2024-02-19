@@ -1,0 +1,155 @@
+/* ImageOverlayComponent.css */
+
+.image-container-buyer {
+    width: 100%;
+    /* Fixed width for the container */
+    height: auto;
+    /* Adjust height as needed */
+    position: relative;
+    /* Important for positioning absolute elements */
+    background-color: #f0f0f0;
+    /* Styling for the container */
+    padding: 20px;
+}
+
+.overlay-component-buyer {
+    position: absolute;
+    /* Overlay position */
+    top: 20%;
+    /* Adjust as needed */
+    left: 10%;
+    /* Adjust as needed */
+    background: #00000080;
+    /* Background color with transparency */
+    padding: 10px;
+    border-radius: 50px;
+    width: 80%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    /* Text color */
+    padding: 10px;
+    z-index: 1;
+    /* Ensure the overlay is on top */
+}
+
+.heading-buildname {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.building-name-buyer-land {
+    font-family: Inter;
+    font-size: 47px;
+    font-weight: 600;
+    line-height: 57px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.building-tagline-buyer-land {
+    font-family: Inter;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 600;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+.view-btn-from-land {
+    padding: 1%;
+    min-width: fit-content;
+    min-height: fit-content;
+    border-radius: 20px;
+    color: white;
+    border: none;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    width: 50%;
+    background-color: #F8665D;
+    height: 45px;
+
+}
+
+.building-name-tagline-land {
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+
+}
+
+.dots-container {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.dot.active {
+    background-color: #4C4C4C;
+    /* Active dot color */
+}
+
+.arrow-container {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.arrow-container-prevbtn,.arrow-container-nextbtn {
+    background-color: #FFFFFF;
+    border: none;
+    height: 35px;
+    width: 35px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+}
+.arrow-container-nextbtn{
+    justify-content: center;
+
+}
+.arrow-container-prevbtn{
+    justify-content: right;
+}
+
+
+.arrow-container button:hover {
+    background-color: #4C4C4C;
+    /* Darker color on hover */
+}
+
+.arrow-container button:last-child {
+    margin-left: auto;
+    /* Pushes the "Next" button to the right */
+}
+.arrowIcon{
+    color: #4C4C4C;
+}
+.arrowIcon:hover{
+    color: #FFFFFF;
+}

@@ -1,0 +1,94 @@
+.expand-icon {
+  color: black;
+}
+
+header {
+  box-shadow: none;
+  width: 100%;
+}
+
+.appbar {
+  position: static;
+  width: 100%;
+}
+
+a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+
+.MuiOutlinedInput-notchedOutline {
+  border: none !important;
+}
+
+.person-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.person-icon {
+  transition: all 0.3s ease;
+}
+
+@media (max-width: 767px) {
+  .person-content {
+    display: none;
+  }
+
+  .person-icon {
+    display: block;
+  }
+
+  .flag-label {
+    display: none;
+  }
+}
+
+.head-name,
+.head-designation {
+  font-family: Inter;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 0%;
+  text-transform: capitalize;
+}
+
+.head-name {
+  color: #4C4C4C;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.head-designation {
+  font-weight: 400;
+  color: #8B8B8B;
+  font-size: 12px;
+  text-transform: capitalize;
+}
+
+.loginBtnHead {
+  width: fit-content;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  /* padding: 10px; */
+  height: 100%;
+  flex-shrink: 0;
+  border-radius: 21px;
+  background: #54C7E9;
+  border: none;
+  outline: none;
+  color: #FFF;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}

@@ -1,0 +1,65 @@
+
+.btn-container {
+    padding-bottom: 20px;
+    padding-right: 20px;
+    margin-top: 20px;
+}
+
+.btn-reject,
+.btn-reject:hover,
+.btn-cancel,
+.btn-cancel:hover {
+    /* padding-left: 20px;
+    padding-right: 20px; */
+    border-radius: 20px;
+}
+
+.btn-reject,
+.btn-reject:hover {
+    width: 108px;
+    height: 35px;
+}
+
+.btn-cancel,
+.btn-cancel:hover {
+    width: 108px;
+    height: 35px;
+}
+
+.btn-reject {
+    background: #FF2E00;
+    color: white;
+    border: none;
+}
+
+.btn-reject:hover {
+    background: white;
+    color: #FF2E00;
+    border-color: #FF2E00;
+    border: 1px solid #4C4C4C;
+}
+
+.btn-cancel {
+    background-color: white;
+    border: 2px solid #4C4C4C;
+    color: #4C4C4C;
+    
+}
+
+.btn-cancel:hover {
+    background-color:rgba(187, 179, 179, 0.329);
+    border: 2px solid #4C4C4C;
+    color: #837d7d;
+}
+.head-text{
+    border-radius: 20px;
+    background: #EDEDED;
+    max-width: 528px;
+}
+.content-text{
+    border-radius: 20px;
+    background: #EDEDED;
+    max-width: 528px;
+    margin-top: 2%;
+
+}
